@@ -53,3 +53,17 @@ p {
 .oBgGreen {
     background-color: var(--color-green);
 }
+
+.miul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.Noticia {
+    background: #BFDCAE;
+    padding: 2px;
+    width: 500PX;
+    margin: 2px;
+}
