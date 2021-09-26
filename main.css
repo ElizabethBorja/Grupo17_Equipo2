@@ -10,8 +10,40 @@
     box-sizing: border-box;
 }
 
+.first-img {
+    display: inline-block;
+}
+
+.container {
+    max-width: 300px;
+    margin: auto;
+    border-style: outset;
+    background-color: white;
+}
+
+section {
+    border: 10px solid gray;
+    height: 90vh;
+}
+
+.inicio {
+    border-right: #206A5D;
+}
+
+li {
+    display: inline-block;
+    border-right: rgb(15, 129, 72) 2px solid;
+    padding: 5px;
+}
+
 body {
+    font: sans-serif;
     margin: 1em;
+}
+
+.oMyCard {
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 .card {

@@ -1,46 +1,32 @@
 <!doctype html>
 <html lang="en">
 
-<head>
+<head class="head">
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <title>Anura Index</title>
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxulus-nQRWGAS_PejPslII9FEiB77cXFshA&usqp=CAU" alt="">
+
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
     <link rel="stylesheet" href="./main.css">
+    <link rel="icon" href="favicon.ico">
+
 </head>
 
-<style>
-    body {
-        font: sans-serif;
-    }
-    
-    section {
-        border: 10px solid gray;
-        height: 90vh;
-    }
-    
-    .container {
-        max-width: 300px;
-        margin: auto;
-        border-style: outset;
-        background-color: white;
-    }
-</style>
-
 <body>
-    <header>
+    <header class="header">
         <hr>
-        <nav>
+        <div class="appbar">
             <ul>
+                <img class="first-img" src="img/frog.jpg" alt="frog-img">
                 <li>Inicio</li>
                 <li>Noticias</li>
+                <li>Integrantes</li>
                 <li>Enlaces a páginas de interés</li>
             </ul>
-        </nav>
+        </div>
         <hr>
     </header>
     <div class="oBgGreen">
@@ -51,12 +37,12 @@
             <div class="col-md-4">
                 <div class="oMyCard">
                     <h1>Guías Fotográficas</h1>
-                    <img src="img/rana3.jpg" alt="rana">
+                    <img class="second-img" src="img/rana3.jpg" alt="rana">
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="oMyCard">
-                    <h1>Guías Geogrficas</h1>
+                    <h1>Guías Taxonómicas</h1>
                     <img src="img/rana2.jpg" alt="rana">
                 </div>
             </div>
@@ -70,83 +56,42 @@
     </div>
 
     <hr size="5" color="black">
-    <table>
-        <tr>
-            <td><img src="images/Strabomantis ruizi.jpg" alt=""></td>
-            <td><em>Strabomantis ruizi</em></td>
-        </tr>
-    </table>
-    
+
     <h3>Noticias</h3>
     <ul class="miul">
         <link rel="stylesheet" href="./main.css">
-            <div class="Noticia">
-                <h4>Noticia 1</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-                    aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                </p>
-            </div>
+        <div class="Noticia">
+            <h4>Noticia 1</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+        </div>
 
-            <div class="Noticia">
-                <h4>Noticia 2</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-                    aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                </p>
-            </div>
+        <div class="Noticia">
+            <h4>Noticia 2</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+        </div>
 
-            <div class="Noticia">
-                <h4>Noticia 3</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                </p>
-            </div>
+        <div class="Noticia">
+            <h4>Noticia 3</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+        </div>
 
-            <div class="Noticia">
-                <h4>Noticia 4</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                </p>
-            </div>
+        <div class="Noticia">
+            <h4>Noticia 4</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+        </div>
 
     </ul>
-    
-    <h3>Integrantes</h3>
-    <table>
-        <thead>
-            <tr>
-                <th>Rol</th>
-                <th>Nombre</th>
-            </tr>
-
-        </thead>
-        <tbody>
-            <tr>
-                <td>Desarrollador</td>
-                <td>Paula</td>
-            </tr>
-            <tr>
-                <td>Desarrollador</td>
-                <td>Danny</td>
-            </tr>
-            <tr>
-                <td>Diseñador</td>
-                <td>Bryan</td>
-            </tr>
-            <tr>
-                <td>Product owner</td>
-                <td>Elizabeth</td>
-            </tr>
-            <tr>
-                <td>Desarrollador</td>
-                <td>Santiago</td>
-            </tr>
-        </tbody>
-
-    </table>
-
-    </dl>
 
 </body>
+
 <footer>
 
 </footer>
