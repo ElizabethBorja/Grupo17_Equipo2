@@ -55,12 +55,6 @@ p {
 }
 
 
-.cardParticipantes {
-    background-color: var(--color-green);
-    color:aliceblue;
-
-}
-
 .card-group>.card {
     background:  var(--color-green);
     margin: 10px;
@@ -95,4 +89,24 @@ p {
     padding-top: 30px;
     background:rgb(129, 178, 20);
     text-align: center;
+}
+
+footer {
+    margin: 30px;
+    background:#e3edee;
+    padding: 20px;
+}
+
+.letra-color-footer{
+color: #2d8172;
+text-align: center;
+}
+
+.fondo-footer-copy{
+    background-color:#2d8172;
+    margin: 20px;
+}
+
+.fondo-footer-copy>p{
+    color:rgb(242, 250, 242)
 }
