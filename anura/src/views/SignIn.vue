@@ -9,7 +9,7 @@
         width="72"
         height="57"
       />
-      <h1 class="h3 mb-3 fw-normal">Sign In</h1>
+      <h1 class="h3 mb-3 fw-normal">Iniciar Sesión</h1>
 
       <div class="form-floating">
         <input
@@ -19,7 +19,7 @@
           id="floatingInput"
           placeholder="name@example.com"
         />
-        <label for="floatingInput">Email address</label>
+        <label for="floatingInput">Email </label>
       </div>
       <div class="form-floating">
         <input
@@ -29,16 +29,16 @@
           id="floatingPassword"
           placeholder="Password"
         />
-        <label for="floatingPassword">Password</label>
+        <label for="floatingPassword">Contraseña</label>
       </div>
 
       <div class="checkbox mb-3">
         <label>
-          <input type="checkbox" value="remember-me" /> Remember me
+          <input type="checkbox" value="remember-me" /> Recordarme
         </label>
       </div>
       <button class="w-100 btn btn-lg btn-primary" type="submit">
-        Sign in
+        Iniciar Sesión
       </button>
     </form>
   </main>
@@ -54,7 +54,7 @@ export default {
   },
   methods: {
     login(){
-        axios.post('http://127.0.0.1:4201/api/consulta_usuario',this.user)
+        axios.post('https://anuraindex.herokuapp.com/api/consulta_usuario',this.user)
             .then(res => {
             if(res.status == 200){
                if(res.data.message == "0"){

@@ -27,7 +27,7 @@
             <p style="text-align:center">
                 Desarrolladora
             </p>
-            <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+           
             </div>
           
             <div class="col-lg-3">
@@ -50,7 +50,7 @@
             <p style="text-align:center">
                 Desarrollador
             </p>
-            <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+            
             </div>
             
             <div class="col-lg-3">
@@ -73,7 +73,6 @@
             <p style="text-align:center">
                 Desarrollador
             </p>
-            <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
             </div>
             
             <div class="col-lg-3">
@@ -96,7 +95,6 @@
             <p style="text-align:center">
                 Desarrolladora
             </p>
-            <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
             </div>
 
 

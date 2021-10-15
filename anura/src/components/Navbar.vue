@@ -24,11 +24,11 @@
         <li class="nav-item">
 
           <router-link class="nav-link link-dark px-2" to="/signin">
-            Sign in
+            Iniciar Sesión
           </router-link>
         </li>
         <li class="nav-item">
-          <router-link class="nav-link link-dark px-2" to="/signup"> Sign up </router-link>
+          <router-link class="nav-link link-dark px-2" to="/signup"> Regístrarse </router-link>
         </li>
       </ul>
     </div>

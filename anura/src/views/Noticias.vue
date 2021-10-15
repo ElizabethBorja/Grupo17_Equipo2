@@ -79,7 +79,7 @@ data(){
             
         },
 beforeCreate(){
-      axios.post('http://127.0.0.1:4201/api/consulta_todas_noticias/')
+      axios.post('https://anuraindex.herokuapp.com/api/consulta_todas_noticias/')
             .then(res => {
             if(res.status == 200){
              this.listaNoticias = res.data.message;

@@ -10,7 +10,7 @@
         width="72"
         height="57"
       />
-      <h1 class="h3 mb-3 fw-normal">Sign Up</h1>
+      <h1 class="h3 mb-3 fw-normal">Registrarse</h1>
 
       <div class="form-floating mb-3">
         <input
@@ -20,7 +20,7 @@
           id="floatingInput"
           placeholder="Fulanito"
         />
-        <label for="floatingInput">Nickname</label>
+        <label for="floatingInput">Usuario</label>
       </div>
 
       <div class="form-floating mb-3">
@@ -31,7 +31,7 @@
           id="floatingInput"
           placeholder="name@example.com"
         />
-        <label for="floatingInput">Email address</label>
+        <label for="floatingInput">Email </label>
       </div>
       <div class="form-floating mb-3">
         <input
@@ -41,14 +41,13 @@
           id="floatingPassword"
           placeholder="Password"
         />
-        <label for="floatingPassword">Password</label>
+        <label for="floatingPassword">Contraseña</label>
       </div>
       <button class="w-100 mb-2 btn btn-lg rounded-4 btn-primary" type="submit">
-        Sign up
+        Registrarse
       </button>
-      <small class="text-muted"
-        >By clicking Sign up, you agree to the terms of use.</small
-      >
+      
+    
      
     </form>
   </main>
@@ -69,7 +68,7 @@ export default {
   methods: {
 
 registrarUsuario(){
-  axios.post('http://127.0.0.1:4201/api/registro_usuario',this.user)
+  axios.post('https://anuraindex.herokuapp.com/api/registro_usuario',this.user)
             .then(res => {
             if(res.status == 200){
             this.$router.push("/dashboard/");

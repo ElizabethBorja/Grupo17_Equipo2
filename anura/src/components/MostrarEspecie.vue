@@ -51,7 +51,7 @@ export default  {
             
         },
 beforeCreate(){
-      axios.post('http://127.0.0.1:4201/api/consultar_todos_avistamientos/')
+      axios.post('https://anuraindex.herokuapp.com/api/consultar_todos_avistamientos/')
             .then(res => {
             if(res.status == 200){
              this.listAvistamientos = res.data.message;

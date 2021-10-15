@@ -78,7 +78,7 @@ export default {
   methods: {
 
 crearAvistamiento(){
-  axios.post('http://127.0.0.1:4201/api/registro_avistamientos',this.avistamiento)
+  axios.post('https://anuraindex.herokuapp.com/api/registro_avistamientos',this.avistamiento)
             .then(res => {
             if(res.status == 200){
             this.$router.push("/avistamientos/");

@@ -104,7 +104,7 @@ export default {
   methods: {
 
 crearNoticia(){
-  axios.post('http://127.0.0.1:4201/api/registro_noticia',this.noticia)
+  axios.post('https://anuraindex.herokuapp.com/api/registro_noticia',this.noticia)
             .then(res => {
             if(res.status == 200){
             this.$router.push("/noticias/");
